@@ -5,3 +5,7 @@ const fetchData = async() => {
     const result = await axios.get(siteUrl);
     return cheerio.load(esult.data);
 };
+
+const $ = await fetchData();
+const postJobButton = $('.top > .action-post-job').text();
+console.log(postJobButton);
