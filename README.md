@@ -1,2 +1,5 @@
 # Web scraper
-Application to scrape data user inputs
+
+Application to scrape data from the internet
+
+Here I scrape names of U.S presidents from wikipedia

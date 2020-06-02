@@ -9,11 +9,11 @@ rp(url)
     const wikiUrls = [];
     let docLength = $("b > a", html).length;
     for (let i = 0; i < docLength; i++) {
-      wikiUrls.push($("b > a", html)[i].attribs.href);
+      wikiUrls.push($("b > a", html)[i].attribs.title);
     }
-    // console.log("====================================");
-    // console.log(wikiUrls);
-    // console.log("====================================");
+    console.log("====================================");
+    console.log(wikiUrls);
+    console.log("====================================");
   })
   .catch(function(err) {
     //handle error
